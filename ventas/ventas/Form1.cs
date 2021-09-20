@@ -22,14 +22,21 @@ namespace ventas
 
         }
 
-        private void button1_Click(object sender, EventArgs e)
+        
+
+        private void Form1_Load_1(object sender, EventArgs e)
         {
-            MessageBox.Show("Hola mundo");
+
         }
 
-        private void button2_Click(object sender, EventArgs e)
+        private void button3_Click(object sender, EventArgs e)
         {
-            MessageBox.Show("Hola mundo 2");
+            MessageBox.Show("Mientras se pueda soñar, aun hay esperanza");
+        }
+
+        private void button1_Click_1(object sender, EventArgs e)
+        {
+            MessageBox.Show("Hola mundo");
         }
     }
 }
